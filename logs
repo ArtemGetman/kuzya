@@ -1,0 +1,38 @@
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+$ git branch
+  first
+* main
+
+$ git log
+commit 304037c9cfc8547b397a86ada15847b83ecb5b88 (HEAD -> main, origin/main)
+Author: ArtemGetman <133578749+ArtemGetman@users.noreply.github.com>
+Date:   Sun May 14 17:55:43 2023 +0300
+
+    Create index.css
+
+commit d68d5d333f755a308dc5375b90dbb0c47e5f2ed5
+Author: ArtemGetman <artem.getjman86@gmail.com>
+Date:   Sun May 14 17:40:25 2023 +0300
+
+    add new paragraph
+
+commit 79cd83c18e0e5e1d4cc35abb59135caf98ddbd8d
+Author: ArtemGetman <artem.getjman86@gmail.com>
+Date:   Sun May 14 16:42:09 2023 +0300
+
+    edit body text
+    
+$ git log --merges
+commit d9c620c7acf4e14f26fbb744ed2f41b802558b90 (HEAD -> main, origin/main)
+Merge: 304037c 52ff9e6
+Author: ArtemGetman <artem.getjman86@gmail.com>
+Date:   Sun May 14 18:10:41 2023 +0300
+
+    resolve conflict
+
+
